@@ -6,13 +6,11 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    cout << "Hello, world!" << endl;
-
     unsigned short Size = {10};
 
     Field a(Size);
 
-    cout << a;
+    a.Play();
 
     return 0;
 }
